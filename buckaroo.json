@@ -13,6 +13,7 @@
     "boost-mpl": "1.63.0",
     "boost-preprocessor": "1.63.0",
     "boost-iterator": "1.63.0",
-    "boost-array": "1.63.0"
+    "boost-array": "1.63.0",
+    "boost-spirit": "1.63.0"
   }
 }

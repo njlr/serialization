@@ -15,16 +15,3 @@ cxx_library(
   ],
   deps = BUCKAROO_DEPS,
 )
-
-prebuilt_cxx_library(
-  name = 'boost-serialization-headers',
-  header_only = True,
-  header_namespace = 'boost',
-  exported_headers = subdir_glob([
-    ('include/boost', '**/*.hpp'),
-    ('include/boost', '**/*.ipp'),
-  ]),
-  visibility = [
-    'PUBLIC',
-  ],
-)
